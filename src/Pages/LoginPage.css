@@ -1,0 +1,125 @@
+.login-page {
+    display: flex;
+    height: 100vh;
+}
+
+.login-left {
+    flex: 1;
+    background: url('../Components/Images/background.jpg') no-repeat center center/cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.branding {
+    text-align: center;
+}
+
+.branding-logo {
+    width: 180px;
+    height: auto;
+    margin-top: 0px;
+}
+
+.branding h2 {
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 60px;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 0px;
+    font-weight: 300;
+
+}
+
+.branding h2 span {
+    color: #00C853;
+    font-weight: 700;
+}
+
+.login-right {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f8f9fa;
+}
+
+.login-form-wrapper {
+    width: 100%;
+    max-width: 400px;
+    padding: 30px;
+    margin-left: 0;
+    text-align: left;
+}
+
+.login-form-wrapper h2 {
+    margin-bottom: 10px;
+    font-size: 28px;
+}
+
+.welcome-text {
+    margin-bottom: 50px; 
+    font-size: 28px;
+    margin-top: 0px;
+}
+
+.signin-text {
+    color: #00C853;
+    font-size: 20px;
+    margin-bottom: 10px;
+    margin-top: 40px;
+}
+
+.signin-text span {
+    font-weight: bold;
+}
+
+.description {
+    color: gray;
+    font-size: 14px;
+    margin-bottom: 50px;
+}
+
+.login-form-input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+
+.login-form-label {
+    font-weight: 600;
+    margin-bottom: 5px;
+    display: block;
+}
+
+.login-form-button {
+    width: 105%;
+    background-color: #00C853;
+    border: none;
+    padding: 10px;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+.login-form-button:hover {
+    background-color: #00b84d;
+}
+
+.error-message {
+    color: red;
+    font-size: 14px;
+    margin-bottom: 15px;
+}
